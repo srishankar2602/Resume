@@ -1,0 +1,274 @@
+body{
+    margin:0px auto;
+    width: 100%;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding-left: 2.5em;
+}
+nav ul{
+    float:right;
+    
+}
+nav{
+    width:90% auto;
+    height: 50px;
+    background-color:#ffe5b9;
+}
+section {
+    background-color:#eff8ff;
+}
+.home
+{
+    background-color: #c9cbffl;
+    text-align: center;
+    font-size:40px;
+    color: black;
+    display:table;
+    height: 100vh;
+    width: 100%;
+}
+.objective{
+    display: table-cell;
+    vertical-align: middle;
+}
+.home .inner h1{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 100;
+}
+.home .inner img
+{
+    padding-top: 60px;
+    border-radius: auto;
+    width: 250px;
+    height: auto;
+}
+.objective p{
+    padding-top: 45px;
+    font-size:30px;
+    text-align: justify;
+}
+.objective
+{
+    background-position: center;
+    background-size: cover;
+    display:table;
+    height: 100vh;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color:darkseagreen
+}
+.objective h1
+{
+    font-size: 35px;
+}
+.objective .inner
+{
+     display: table-cell;
+    vertical-align: middle;
+    width: 80%;
+    float: left;
+    padding: 50px;
+        
+}
+.objective .inner h1{
+    font-size: 40;
+}
+.objective .inner p{
+    font-size: 30;
+    line-height: 50px;
+    
+}
+.education
+{
+    background-color: white;
+    display:table;
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+}
+.education .inner
+{
+    padding: 50px;
+}
+.education h1, .hobbies h1 , .skills h1 , .projects h1 , .contact h1
+{
+    font-size: 42px;
+
+}
+.education .inner div, .hobbies .inner div  
+{
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+}
+.skills .inner div
+{
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: left;
+    font-size: 28px;
+}
+.education .inner div p, .hobbies .inner div p , .skills .inner div p, .contact .inner div p
+{
+    font-size: 26px;
+
+}
+.education .inner div img
+{
+    
+    width: 200px;
+    height: 200px;
+}
+ .hobbies .inner div img
+{
+    margin: auto;
+    
+    width: 200px;
+    height: 200px;
+}
+.hobbies
+{
+    background-color:beige;
+    display:table;
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+}
+.hobbies .inner, .contact .inner
+{
+    padding: 50px;
+}
+.skills
+{
+   
+    display:table;    
+    height:100vh;
+    width: 100%;
+   
+}
+.skills .inner
+{
+    padding: 50px;
+   
+}
+.skills .inner div ul li
+{
+    list-style-type:square;
+}
+.projects
+{
+   
+    display:table;    
+    height:100vh;
+    width: 100%;
+   
+    background-color: darkgray;
+}
+
+.projects .inner
+{
+    padding: 50px;
+   
+}
+.projects .inner div
+{
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: left;
+    font-size: 28px;
+}
+
+.projects .inner div ul li
+{
+    list-style-type:lower-roman;
+}
+
+.contact
+{
+    background-color: cyan;
+    display:table;
+    color: black;
+    
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+}
+.contact .inner p{
+    font-size: 32px;
+}
+/*Responsive*/
+
+@media (min-width: 320px) and (max-width: 767px)
+    {
+        .home  inner img{
+            padding-top: 100px;
+        }
+        .about
+        {
+            background: burlywood;
+        }
+        .about .inner
+        {
+            width: 100%;
+            padding: 25px;
+        }
+        .about .inner p{
+            font-size: 26px;
+        }
+        .education .inner div, .hobbies .inner div, .skills .inner div
+        {
+            width: 100%;
+        }
+        .hobbies .inner div{
+            border-bottom: 2px solid #000000;
+        }`
+}
+@media (min-width: 768px) and (max-width: 1023px)
+    {
+        body nav
+        {
+            font-size: 20px;
+            width:92%;
+            padding-left: 0.4em;
+
+        }
+        .home{
+            font-size: 30px;
+            width: 100%;
+        }
+         .home  inner img{
+            padding-top: 100px;
+        }
+        .about
+        {
+            background: burlywood;
+        }
+        .about .inner
+        {
+            width: 100%;
+            padding: 25px;
+        }
+        .about .inner p{
+            font-size: 26px;
+        }
+        .education .inner div, .hobbies .inner div, .skills .inner div
+        {
+            width: 100%;
+        }
+        .hobbies .inner div{
+            border-bottom: 2px solid #000000;
+        }
+}
+@media (min-width: 1024px) and (max-width: 14390px)
+    {
+}
